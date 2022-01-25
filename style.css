@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body{
+    margin: 0px;
+}
+h1{
+    font-size: 50px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    color: grey;
+}
+#heading-name{
+    color: orange;
+    
+}
+.objects{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.objects:hover{
+    color: tomato;
+}
+img{
+    margin: 10px;
+    width: 100%;
+}
+.back-image{
+    background-image: url(Images/top-banner.png);
+    background-repeat: no-repeat;   
+}
+section{
+    height: 500px;   
+}
+.button{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    text-decoration: none;
+    background-image: linear-gradient(45deg,lightsalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+
+}
+.dream-area{
+    background-image: url(Images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-bottom: 200px;
+}
+.information{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+    background-color: white;
+}
+.information:hover{
+    color: white;
+    background-image: linear-gradient(60deg,violet, cyan);
+
+}
+.single-experience{
+    background-image: url(Images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#a:hover{
+    color: tomato;
+}
+
+#full-stack{
+     border-left: 7px solid;
+     border-image: linear-gradient(180deg,lightsalmon, tomato);
+     border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+
+}
+footer p{
+    margin: 100px;
+    text-align: center;
+    font-size: 15px;
+}
